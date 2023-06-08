@@ -15,6 +15,11 @@
 
   <ItemGroup>
     <ProjectReference Include="..\BethanysPieShopHRM.Shared\BethanysPieShopHRM.Shared.csproj" />
+    <ProjectReference Include="..\BethanysPieShopHRMComponentsLibrary\BethanysPieShopHRMComponentsLibrary.csproj" />
   </ItemGroup>
+
+	<ItemGroup>
+		<BlazorWebAssemblyLazyLoad Include="BethanysPieShopHRMComponentsLibrary.dll" />
+	</ItemGroup>
 
 </Project>

@@ -1,8 +1,8 @@
-﻿using Microsoft.AspNetCore.Components;
-using BethanysPieShopHRM.Shared.Model;
+﻿using BethanysPieShopHRM.Shared.Model;
+using Microsoft.AspNetCore.Components;
 using Microsoft.JSInterop;
 
-namespace BethanysPieShopHRM.App.Components
+namespace BethanysPieShopHRMComponentsLibrary
 {
 	public partial class Map
 	{
